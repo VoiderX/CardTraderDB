@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="FE9B9C4C-CBA9-62C3-3D5B-018E90454469" mainViewID="D79621E4-82C1-9CCB-8138-70BAFF19405C">
+<createdBy>noda2</createdBy>
+<createdTime>2016-08-19 18:36:04 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

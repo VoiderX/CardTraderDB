@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="esquema" id="87E5B896-52E3-4E4D-234A-016DA91C5905" version="3.5">
+<createdBy>noda2</createdBy>
+<createdTime>2016-08-19 18:36:04 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>87E5B896-52E3-4E4D-234A-016DA91C5905</designId>
+</OSDM_Design>

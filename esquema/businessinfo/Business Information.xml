@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="4D519688-1C78-6D43-7517-33C0F60D7538">
+<createdBy>noda2</createdBy>
+<createdTime>2016-08-19 18:36:04 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

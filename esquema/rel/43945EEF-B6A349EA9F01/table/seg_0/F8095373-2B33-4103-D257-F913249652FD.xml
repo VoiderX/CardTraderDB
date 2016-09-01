@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8095373-2B33-4103-D257-F913249652FD" name="TRANSACAO">
+<createdBy>noda2</createdBy>
+<createdTime>2016-08-19 18:39:59 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USUARIO_NICK_VENDEDOR" id="CC32887A-3E3D-1D3B-136E-9BF07B735955">
+<createdBy>Gabriel</createdBy>
+<createdTime>2016-08-22 20:55:41 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9ED84F7B-8E3E-AB06-3007-80AC16949D0E" referredColumn="565EEEAA-65C3-CC6E-73CE-F8B8FBB8D526"/>
+</associations>
+</Column>
+<Column name="USUARIO_NICK_COMPRADOR" id="2163F96F-27DF-7480-F97C-74B9C0DADDEC">
+<createdBy>Gabriel</createdBy>
+<createdTime>2016-08-22 20:55:54 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A0417D2-5791-F17B-B36A-7D09662EA44A" referredColumn="565EEEAA-65C3-CC6E-73CE-F8B8FBB8D526"/>
+</associations>
+</Column>
+<Column name="STATUS_TRANSACAO" id="591914A0-81CC-CA1F-DFD7-57F0B3A1D53B">
+<createdBy>Gabriel</createdBy>
+<createdTime>2016-08-22 21:02:46 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARTA_ID_CARTA" id="08ACFF64-734C-9287-39B8-40C07DA37C26">
+<createdBy>Gabriel</createdBy>
+<createdTime>2016-08-22 21:19:35 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13726167-1A98-AD63-7D9E-C1C95043CB92" referredColumn="FEA8F68B-74F7-C799-A30D-6FEFC1D409AB"/>
+</associations>
+</Column>
+<Column name="VALORCARTA_TRANSACAO" id="09E3C86A-1A51-C099-C81B-C0635D0B7338">
+<createdBy>Gabriel</createdBy>
+<createdTime>2016-08-22 21:21:39 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>30</dataTypeScale>
+<ownDataTypeParameters>,2,30</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALORFRETE_TRANSACAO" id="2EE1C739-FB26-2731-CE2B-ABE097D0B976">
+<createdBy>Gabriel</createdBy>
+<createdTime>2016-08-22 21:22:34 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>30</dataTypeScale>
+<ownDataTypeParameters>,2,30</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3706DB8B-32D4-04BF-AE32-712F5D14F69C" name="COMPRADOR">
+<createdBy>Gabriel</createdBy>
+<createdTime>2016-08-22 20:55:41 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC32887A-3E3D-1D3B-136E-9BF07B735955"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FE1BFA0-5624-C700-3C0F-7BE35534D274" name="VENDEDOR">
+<createdBy>Gabriel</createdBy>
+<createdTime>2016-08-22 20:55:54 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2163F96F-27DF-7480-F97C-74B9C0DADDEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B357589B-4920-F174-B5B9-EFBB9CC7949F" name="CARTA_VENDIDA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2016-08-22 21:19:35 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08ACFF64-734C-9287-39B8-40C07DA37C26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

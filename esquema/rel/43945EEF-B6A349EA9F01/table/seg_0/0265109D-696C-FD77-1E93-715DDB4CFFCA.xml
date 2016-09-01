@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0265109D-696C-FD77-1E93-715DDB4CFFCA" name="ESTADO">
+<createdBy>Gabriel</createdBy>
+<createdTime>2016-08-22 21:13:03 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOME_ESTADO" id="BF072374-5F6A-C251-51E6-006FA2EAEF5A">
+<createdBy>Gabriel</createdBy>
+<createdTime>2016-08-22 21:14:58 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS_NOME_PAIS" id="14A0D17B-E397-8885-CEBC-384D847C8F7C">
+<createdBy>Gabriel</createdBy>
+<createdTime>2016-08-22 21:25:30 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D35DC26-0E6E-28A1-5555-CBF583FC2436" referredColumn="CD0C8F17-18BC-BF00-9008-1E6F11318697"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="690552FE-34B0-67D0-5A83-14CC090E053D" name="ESTADO_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2016-08-22 21:14:58 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF072374-5F6A-C251-51E6-006FA2EAEF5A"/>
+<colUsage columnID="14A0D17B-E397-8885-CEBC-384D847C8F7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC446383-7EF1-7A10-6F34-81D79114BA6E" name="PERTENCEv3">
+<createdBy>Gabriel</createdBy>
+<createdTime>2016-08-22 21:25:30 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14A0D17B-E397-8885-CEBC-384D847C8F7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

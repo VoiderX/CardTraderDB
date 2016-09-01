@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="13726167-1A98-AD63-7D9E-C1C95043CB92" containerWithKeyObject="F8095373-2B33-4103-D257-F913249652FD" localFKIndex="B357589B-4920-F174-B5B9-EFBB9CC7949F" name="CARTA_VENDIDA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2016-08-22 21:19:35 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AF4FB7B4-8F3A-8AA9-7544-E16962AD7327</referredTableID>
+<keyObject>8E3B899E-7E97-330D-17D5-F458F9E402B7</keyObject>
+<referredKeyID>8E3B899E-7E97-330D-17D5-F458F9E402B7</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

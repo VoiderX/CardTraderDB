@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EABCDDE0-5BE7-BA69-990E-7FBDC3A0AD53" name="FABRICANTE">
+<createdBy>noda2</createdBy>
+<createdTime>2016-08-19 18:39:13 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOME_FABRICANTE" id="332CFF72-0978-E177-7FFC-D90A86708869">
+<createdBy>noda2</createdBy>
+<createdTime>2016-08-19 19:21:53 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_FABRICANTE" id="2B42C5EB-EA4C-3F9E-906B-257B52D233E7">
+<createdBy>noda2</createdBy>
+<createdTime>2016-08-19 19:22:22 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="512450EF-7CEA-808D-003B-9C87C4213399" name="FABRICANTE_PK">
+<createdBy>noda2</createdBy>
+<createdTime>2016-08-19 19:22:22 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B42C5EB-EA4C-3F9E-906B-257B52D233E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

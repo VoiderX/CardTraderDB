@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACB01CBA-D41A-5901-22EC-0996BC8E2FE2" name="USUARIO">
+<createdBy>noda2</createdBy>
+<createdTime>2016-08-19 18:37:23 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NICK_USUARIO" id="565EEEAA-65C3-CC6E-73CE-F8B8FBB8D526">
+<createdBy>noda2</createdBy>
+<createdTime>2016-08-19 18:49:53 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME_USUARIO" id="777828EB-7849-FFF5-2BA8-098A52BE3693">
+<createdBy>noda2</createdBy>
+<createdTime>2016-08-19 18:54:42 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDERECO_USUARIO" id="BFB52A24-471A-E618-36A9-ED8C5974C56B">
+<createdBy>noda2</createdBy>
+<createdTime>2016-08-19 18:55:50 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_USUARIO" id="A2E83A8B-FB56-5C98-8679-4CE449EFFE1C">
+<createdBy>noda2</createdBy>
+<createdTime>2016-08-19 18:57:10 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL_USUARIO" id="808AD965-6EFD-AB54-118D-3D04EF451D70">
+<createdBy>noda2</createdBy>
+<createdTime>2016-08-19 18:59:43 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIDADE_ESTADO_PAIS_NOME_PAIS" id="E5ADC15C-08F4-35C7-199C-02B7AD4B6FD1">
+<createdBy>Gabriel</createdBy>
+<createdTime>2016-09-01 02:46:32 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE3A39C8-CD77-B6DF-1E02-18E4F135AFB2" referredColumn="E7CBF259-3729-8ED8-D760-6E86A8EBCFAF"/>
+</associations>
+</Column>
+<Column name="CIDADE_ESTADO_NOME_ESTADO" id="0E71E4D9-42FC-BC46-FFBE-2539077CCE7A">
+<createdBy>Gabriel</createdBy>
+<createdTime>2016-09-01 02:46:32 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE3A39C8-CD77-B6DF-1E02-18E4F135AFB2" referredColumn="D6A9FCB6-3BDD-ECBD-250C-B307B27DB0F5"/>
+</associations>
+</Column>
+<Column name="CIDADE_NOME_CIDADE" id="64041421-3F09-80C3-6AAF-2FB294F55E93">
+<createdBy>Gabriel</createdBy>
+<createdTime>2016-09-01 02:46:32 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE3A39C8-CD77-B6DF-1E02-18E4F135AFB2" referredColumn="E1290A00-EAEB-0AE1-9192-9EF3EB74D6D5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6974762-5E8A-E526-78D4-7CD20A5FC943" name="USUARIO_PK">
+<createdBy>noda2</createdBy>
+<createdTime>2016-08-19 18:49:53 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="565EEEAA-65C3-CC6E-73CE-F8B8FBB8D526"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD016C72-F9EB-FAFD-E83C-99551EFD9333" name="USUARIO_CIDADE_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2016-09-01 02:46:32 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64041421-3F09-80C3-6AAF-2FB294F55E93"/>
+<colUsage columnID="0E71E4D9-42FC-BC46-FFBE-2539077CCE7A"/>
+<colUsage columnID="E5ADC15C-08F4-35C7-199C-02B7AD4B6FD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

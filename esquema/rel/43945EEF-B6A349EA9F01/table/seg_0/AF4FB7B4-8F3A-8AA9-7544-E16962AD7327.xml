@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF4FB7B4-8F3A-8AA9-7544-E16962AD7327" name="CARTA">
+<createdBy>noda2</createdBy>
+<createdTime>2016-08-19 18:37:41 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CARTA" id="FEA8F68B-74F7-C799-A30D-6FEFC1D409AB">
+<createdBy>noda2</createdBy>
+<createdTime>2016-08-19 19:00:39 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME_CARTA" id="766F335E-8489-A8DD-3EE0-8B456D04333B">
+<createdBy>noda2</createdBy>
+<createdTime>2016-08-19 19:01:02 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESC_CARTA" id="E9875729-D5A8-8C95-E1BE-EB832912FA1F">
+<createdBy>noda2</createdBy>
+<createdTime>2016-08-19 19:01:44 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>141</dataTypeSize>
+<ownDataTypeParameters>141,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMG_CARTA" id="DA4003AD-3B52-719A-A0AC-98E65D5BB29E">
+<createdBy>noda2</createdBy>
+<createdTime>2016-08-19 19:02:18 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FABRICANTE_ID_FABRICANTE" id="8F7EB0F1-CD30-89F1-B664-5DA337BC41B0">
+<createdBy>Gabriel</createdBy>
+<createdTime>2016-08-22 20:50:49 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C2B14BA-12B2-E050-B1FD-7DECBEE817D9" referredColumn="2B42C5EB-EA4C-3F9E-906B-257B52D233E7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E3B899E-7E97-330D-17D5-F458F9E402B7" name="CARTA_PK">
+<createdBy>noda2</createdBy>
+<createdTime>2016-08-19 19:00:39 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEA8F68B-74F7-C799-A30D-6FEFC1D409AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E99C31A-0438-1742-19E0-6C15741FB76E" name="FABRICA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2016-08-22 20:50:49 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F7EB0F1-CD30-89F1-B664-5DA337BC41B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
