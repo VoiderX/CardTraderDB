@@ -8,6 +8,16 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CATALOGO" id="6E730515-EC03-40C4-1340-4C268FECE7F1">
+<createdBy>Gabriel</createdBy>
+<createdTime>2016-09-22 22:12:18 UTC</createdTime>
+<ownerDesignName>esquema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="USUARIO_CATALOGO" id="8FB221B2-0CD5-836F-B0AA-B4588C02E5FF">
 <createdBy>noda2</createdBy>
 <createdTime>2016-08-19 19:07:00 UTC</createdTime>
@@ -71,7 +81,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8FB221B2-0CD5-836F-B0AA-B4588C02E5FF"/>
+<colUsage columnID="6E730515-EC03-40C4-1340-4C268FECE7F1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="7922E2EA-41AA-B49F-6334-F8D5736E944C" name="PERTENCE">
