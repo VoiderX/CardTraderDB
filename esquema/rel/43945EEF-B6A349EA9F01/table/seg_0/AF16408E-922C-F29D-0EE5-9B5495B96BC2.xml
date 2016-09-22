@@ -37,18 +37,6 @@
 <colAssociation fkAssociation="C37B884A-B923-D341-9903-2FD678034F0F" referredColumn="FEA8F68B-74F7-C799-A30D-6FEFC1D409AB"/>
 </associations>
 </Column>
-<Column name="DISP_CATALOGO" id="006A0485-FD4A-AFEA-6E4F-8D91DF99706D">
-<createdBy>noda2</createdBy>
-<createdTime>2016-08-19 19:14:32 UTC</createdTime>
-<ownerDesignName>esquema</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="QUANT_CATALOGO" id="C5AB5ADC-B118-AFF0-6649-1A206FE21B43">
 <createdBy>noda2</createdBy>
 <createdTime>2016-08-19 19:15:43 UTC</createdTime>
