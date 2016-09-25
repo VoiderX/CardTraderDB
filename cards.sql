@@ -1,4 +1,4 @@
-INSERT INTO public.fabricante(
+﻿INSERT INTO public.fabricante(
 	nome_fabricante, id_fabricante)
 	VALUES ('Pokemon', 1),
     		('Wizards of the Coast',2);
@@ -15,3 +15,7 @@ INSERT INTO public.carta(
                   (8, 'Machamp','Using its amazing muscles, it throws powerful punches that can knock its victim clear over the horizon.', lo_import('D:\PokemonCard\machamp-base-set-bs-8.jpg'),1 ),
                   (9, 'Magneton','Formed by several Magnemites linked together. It frequently appears when sunspots flare up.', lo_import('D:\PokemonCard\magneton-base-set-bs-9.jpg'),1 ),
                   (10, 'Mewtwo','A scientist created this Pokémon after years of horrific gene-splicing and DNA engineering experiments.', lo_import('D:\PokemonCard\mewtwo-base-set-bs-10.jpg'),1 );
+
+
+http://pkmncards.com/set/base-set/
+nomes, informações etc das cartas
