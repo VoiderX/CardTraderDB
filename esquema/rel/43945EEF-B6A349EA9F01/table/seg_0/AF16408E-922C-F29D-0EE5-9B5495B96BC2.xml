@@ -41,7 +41,6 @@
 <createdBy>noda2</createdBy>
 <createdTime>2016-08-19 19:15:43 UTC</createdTime>
 <ownerDesignName>esquema</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -52,7 +51,6 @@
 <createdBy>Gabriel</createdBy>
 <createdTime>2016-08-22 21:06:58 UTC</createdTime>
 <ownerDesignName>esquema</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
