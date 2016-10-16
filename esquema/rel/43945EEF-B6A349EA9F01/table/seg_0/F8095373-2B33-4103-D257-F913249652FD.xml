@@ -64,22 +64,20 @@
 <colAssociation fkAssociation="13726167-1A98-AD63-7D9E-C1C95043CB92" referredColumn="FEA8F68B-74F7-C799-A30D-6FEFC1D409AB"/>
 </associations>
 </Column>
-<Column name="VALORCARTA_TRANSACAO" id="09E3C86A-1A51-C099-C81B-C0635D0B7338">
+<Column name="QUANTIDADE_TRANSACAO" id="D5F06CC2-9854-6B44-77E4-7FD5BA7FA63A">
 <createdBy>Gabriel</createdBy>
-<createdTime>2016-08-22 21:21:39 UTC</createdTime>
+<createdTime>2016-10-15 18:53:51 UTC</createdTime>
 <ownerDesignName>esquema</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<dataTypeScale>30</dataTypeScale>
-<ownDataTypeParameters>,2,30</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="VALORFRETE_TRANSACAO" id="2EE1C739-FB26-2731-CE2B-ABE097D0B976">
+<Column name="VALORCARTA_TRANSACAO" id="09E3C86A-1A51-C099-C81B-C0635D0B7338">
 <createdBy>Gabriel</createdBy>
-<createdTime>2016-08-22 21:22:34 UTC</createdTime>
+<createdTime>2016-08-22 21:21:39 UTC</createdTime>
 <ownerDesignName>esquema</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>

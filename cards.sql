@@ -16,6 +16,3 @@ INSERT INTO public.carta(
                   (9, 'Magneton','Formed by several Magnemites linked together. It frequently appears when sunspots flare up.', lo_import('D:\PokemonCard\magneton-base-set-bs-9.jpg'),1 ),
                   (10, 'Mewtwo','A scientist created this Pokémon after years of horrific gene-splicing and DNA engineering experiments.', lo_import('D:\PokemonCard\mewtwo-base-set-bs-10.jpg'),1 );
 
-
-http://pkmncards.com/set/base-set/
-nomes, informações etc das cartas
