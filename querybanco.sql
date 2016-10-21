@@ -1,4 +1,4 @@
--- Gerado por Oracle SQL Developer Data Modeler 4.1.3.901
+﻿-- Gerado por Oracle SQL Developer Data Modeler 4.1.3.901
 --   em:        2016-10-15 21:34:35 BRT
 --   site:      Oracle Database 11g
 --   tipo:      Oracle Database 11g
@@ -76,7 +76,7 @@ CREATE TABLE USUARIO
     NOME_USUARIO                 VARCHAR (50) NOT NULL ,
     ENDERECO_USUARIO             VARCHAR (50) ,
     NUM_USUARIO                  VARCHAR (20) ,
-    EMAIL_USUARIO                VARCHAR (60) NOT NULL ,
+    EMAIL_USUARIO                VARCHAR (60) UNIQUE NOT NULL ,
     CIDADE_ESTADO_PAIS_NOME_PAIS VARCHAR (40) NOT NULL ,
     CIDADE_ESTADO_NOME_ESTADO    VARCHAR (30) NOT NULL ,
     CIDADE_NOME_CIDADE           VARCHAR (30) NOT NULL
